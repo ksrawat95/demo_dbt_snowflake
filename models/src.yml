@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: dbo
+    database: SCD_LEARN
+    schema: dbo
+    tables:
+      - name: Source_SCD
+        columns:
+          - name: Id
+          - name: Value
