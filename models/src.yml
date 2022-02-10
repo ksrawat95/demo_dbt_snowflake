@@ -8,4 +8,10 @@ sources:
       - name: Source_SCD
         columns:
           - name: Id
+            tests:
+              - unique
+              - not_null 
           - name: Value
+            tests:
+              - unique
+              - not_null 
